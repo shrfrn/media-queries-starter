@@ -12,7 +12,7 @@ body {
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    grid-template-rows: 100vh;
 }
 
 .sun {
