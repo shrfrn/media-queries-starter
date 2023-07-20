@@ -10,15 +10,16 @@ body {
 }
 
 .main-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-container > div {
+    flex-grow: 1;
 }
 
 .sun {
-    grid-column: 1;
-    justify-self: center;
-
     height: 160px;
     width: 160px;
 
@@ -26,13 +27,11 @@ body {
     background-color: #ffdd00e7;
     
     margin-block-start: 100px;
+    margin-inline: auto;
 }
 
 h1 {
-    grid-column: 2;
-    justify-self: end;
     margin-inline-end: 20px;
-
     font-size: 26px;
 }
 
