@@ -46,7 +46,6 @@ main {
     }
 
     .gallery {
-        align-items: start;
         justify-content: end;
         flex-basis: 50%;
     }
