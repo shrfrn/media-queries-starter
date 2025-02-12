@@ -7,7 +7,7 @@
         <title>Media Queries!</title>
     </head>
 
-    <body onload="renderViewPort()" onresize="renderViewPort()">
+    <body onload="renderViewPortWidth()" onresize="renderViewPortWidth()">
         
         <div class="main-container">
             <div class="sun"></div>
@@ -15,7 +15,7 @@
         </div>
 
         <script>
-            function renderViewPort() {
+            function renderViewPortWidth() {
                 var viewportWidth = window.innerWidth
                 const elHeading = document.querySelector('h1')
                 elHeading.innerText = `width: ${viewportWidth}px`
