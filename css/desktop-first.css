@@ -37,6 +37,7 @@ h1 {
     body {
         background-color: darkcyan;
     }
+    
     .sun {
         background-color: rgba(221, 147, 9, 0.924);
         margin-block-start: 300px;
@@ -49,10 +50,12 @@ h1 {
     body {
         background-color: darkblue;
     }
+
     .sun {
         background-color: rgba(216, 31, 14, 0.863);
         margin-block-start: 600px;
     }
+
     h1 {
         font-size: 20px;
         color: white;
